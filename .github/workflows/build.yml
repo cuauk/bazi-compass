@@ -13,7 +13,7 @@ jobs:
           channel: 'stable'
           
       - name: Create missing platform folders
-        run: flutter create .
+        run: flutter create --project-name bazi_compass .
         
       - name: Install dependencies
         run: flutter pub get
